@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", sans-serif ;
 }
 
+/*-----------header--------------*/
+
 .header{
     background-color: #FFFFFF;;
 }
@@ -107,6 +109,8 @@ color: #757575;
     color: #2196F3;
 }
 
+/*------------hero--------*/
+
 .hero{
     background-color: #2F303A;
 }
@@ -130,6 +134,8 @@ color: #FFFFFF
     line-height: 1.88;    
     color: #FFFFFF
  }
+
+/*----------------content------------*/
 
  .content{
     background: #E5E5E5
@@ -162,13 +168,20 @@ color: #212121;
     color: #757575;  
 }
 
+/*-----------work----------*/
+
 .work{
     background: #E5E5E5;
 }
 
+/*-------------team-------------*/
+
 .team{
     background: #F5F4FA;
 }
+
+/*-------------footer------------*/
+
 
 .footer{
     background: #2F303A;  
