@@ -1,5 +1,21 @@
+:root{
+
+    --primary-text-color: #212121;
+    --secondary-text-color:  #757575;
+    --primary-white-color: #FFFFFF;
+}
+
+
 body {
     font-family: "Roboto", sans-serif ;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
+
+    color: var (--primary-text-color);
+    background-color: var (--primary-white-color);
+
 }
 
 /*-----------header--------------*/
@@ -38,18 +54,19 @@ color: #2196F3;
 
 .header-list{
     list-style: none;
+    text-decoration: none;
 }
 
 
 
-.header-link-active{
+.header-link-active{   
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    
-    color: #212121;
-text-decoration: none;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: #212121;
+    text-decoration: none;
 }
 
 .header-link-active:hover{
@@ -57,13 +74,13 @@ text-decoration: none;
 }
 
 .header-link{
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
 
-color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
 text-decoration: none;
 }
 
@@ -76,16 +93,14 @@ text-decoration: none;
     list-style: none;
 }
 
-.header-mail{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    
-    color: #757575
-}
  
 .header-mail{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
     text-decoration: none;
 }
 
@@ -95,14 +110,12 @@ text-decoration: none;
 
 .header-tel{
     font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-
-color: #757575;
-}
-.header-tel{
-    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+text-decoration: none;
 }
 
 .header-tel:hover{
@@ -116,10 +129,16 @@ color: #757575;
 }
 
 .hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.44;
-color: #FFFFFF
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
 }
 
 .hero-btn{
@@ -128,10 +147,14 @@ color: #FFFFFF
 }
 
  .hero-btn{
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;    
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
     color: #FFFFFF
  }
 
@@ -160,20 +183,18 @@ color: #FFFFFF
 
  .content-item-title{
     font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var (--primary-text-color)
  }
 
 .content-text{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
-    color: #757575;  
+font-size: 14px;
+line-height: 1.71;
+
+letter-spacing: 0.03em;
+
+color: #757575; 
 }
 
 /*-----------work----------*/
@@ -191,7 +212,7 @@ color: #FFFFFF
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    color: #212121;  
+    color: var (--primary-text-color)  
 }
 
 /*-------------team-------------*/
@@ -205,7 +226,7 @@ color: #FFFFFF
 font-size: 36px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-color: #212121;
+color: var (--primary-text-color)
 }
 
 .team-item{
@@ -217,15 +238,14 @@ color: #212121;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
-color: #212121;
+color: var (--primary-text-color)
 }
 
 .team-text{
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
-color: #757575;
+color: var (--secondary-text-color)
 }
 
 /*-------------footer------------*/
@@ -244,7 +264,7 @@ line-height: 1.19;
 
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
+color: var (--primary-white-color)
 }
 
 .footer-logo-color{
@@ -256,16 +276,14 @@ color: #FFFFFF;
 }
 
 .footer-text-addres{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;   
     letter-spacing: 0.03em;
     
-    color: #FFFFFF;   
+    color: #FFFFFF   
 }
 
 .footer-text{
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
