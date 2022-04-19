@@ -81,7 +81,7 @@ body {
 }
 
 .header-link:hover {
-    color: var(--second-hdr-text-color)
+    color: var(--second-hdr-text-color);
 }
 
 
@@ -172,7 +172,7 @@ body {
  .content-item-title {
     font-weight: 700;
     letter-spacing: 0.03em;
-    color: var (--primary-text-color)
+    color: var(--second-title-color)
  }
 
 .content-text {
@@ -206,7 +206,7 @@ body {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var (--primary-text-color)
+    color: var(--second-title-color)
 }
 
 .team-item {
