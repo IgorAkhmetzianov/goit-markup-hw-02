@@ -258,12 +258,14 @@ body {
 }
 
 .footer-text-addres {
+    font-style: normal;
     line-height: 1.71;   
     letter-spacing: 0.03em;
     color: var(--footer-text-color);  
 }
 
 .footer-text {
+    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-ft-text-color);
